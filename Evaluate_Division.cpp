@@ -30,6 +30,7 @@ public:
             graph[B].push_back({A, 1.0 / val});
         }
 
+        
         vector<double> results;
         for (auto& query : queries) {
             string C = query[0];
